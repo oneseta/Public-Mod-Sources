@@ -11,12 +11,11 @@
 `//Author:わんせた(ONESETA)  Twitter:@ars42525`
 を追加しなければなりません
 
-例
+例  
     //Author:わんせた(ONESETA)  Twitter:@ars42525
     var getAct=com.mojang.minecraftpe.MainActivity.currentMainActivity.get();
     var modname="";
     var ProgressDialog=android.app.ProgressDialog;
-    
     function newLevel(){
     //Author:わんせた(ONESETA)  Twitter:@ars42525
     getAct.runOnUiThread(
