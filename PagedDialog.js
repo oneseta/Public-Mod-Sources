@@ -1,1 +1,7 @@
+//ページに分割されたダイアログを表示するテンプレ
+//説明書にでもお使い下さい
+//Packerは外しません
+//Readmeを絶対に読んでください
+//viewPagedDialog("タイトル",["内容","内容","内容"...])
 
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('9 C(j,t){2 k=4.D.E;2 l=4.s.F;2 m=4.s.G;2 o=4.s.H;2 p=4.s.I;2 q=4.J.K;2 n=0;2 r=L.M.N.O.P.Q();r.R(3 S.T.U({V:9(){W{2 a=3 k(r);a.X(j);2 b=3 l(r);2 c=3 m(r);c.z(m.Y);2 d=3 o(r);d.6(t[0]);c.7(d);2 f=3 m(r);f.z(m.Z);2 g=3 p(r);g.6("<<<");g.A(m.8(m.8.u,m.8.u,0.5));g.w(3 q.x(){y:9(v){B(n!==0){n--;d.6(t[n])}}});f.7(g);2 h=3 p(r);h.6(">>>");h.A(m.8(m.8.u,m.8.u,0.5));h.w(3 q.x(){y:9(v){B(n!==(t.10-1)){n++;d.6(t[n])}}});f.7(h);c.7(f);2 i=3 p(r);i.6("11");i.w(3 q.x(){y:9(v){a.12()}});c.7(i);b.7(c);a.13(b);a.14()}15(e){16(e)}}}))}',62,69,'||var|new|android||setText|addView|LayoutParams|function|||||||||||||||||||widget||WRAP_CONTENT||setOnClickListener|OnClickListener|onClick|setOrientation|setLayoutParams|if|viewPagedDialog|app|Dialog|ScrollView|LinearLayout|TextView|Button|view|View|com|mojang|minecraftpe|MainActivity|currentMainActivity|get|runOnUiThread|java|lang|Runnable|run|try|setTitle|VERTICAL|HORIZONTAL|length|close|dismiss|setContentView|show|catch|print'.split('|'),0,{}))
