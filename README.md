@@ -12,22 +12,22 @@
 を追加しなければなりません
 
 例  
-    //Author:わんせた(ONESETA)  Twitter:@ars42525
-    var getAct=com.mojang.minecraftpe.MainActivity.currentMainActivity.get();
-    var modname="";
-    var ProgressDialog=android.app.ProgressDialog;
-    function newLevel(){
-    //Author:わんせた(ONESETA)  Twitter:@ars42525
-    getAct.runOnUiThread(
-    new java.lang.Runnable({run:function(){
-    try{
-    var pd=ProgressDialog(getAct);
-    pd.setTitle(modname);
-    pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-    pd.show();
-    }catch(e){
-    report(e);
-    }
-    }})
-    );
+    //Author:わんせた(ONESETA)  Twitter:@ars42525  
+    var getAct=com.mojang.minecraftpe.MainActivity.currentMainActivity.get();  
+    var modname="";  
+    var ProgressDialog=android.app.ProgressDialog;  
+    function newLevel(){  
+    //Author:わんせた(ONESETA)  Twitter:@ars42525  
+    getAct.runOnUiThread(  
+    new java.lang.Runnable({run:function(){  
+    try{  
+    var pd=ProgressDialog(getAct);  
+    pd.setTitle(modname);  
+    pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);  
+    pd.show();  
+    }catch(e){  
+    report(e);  
+    }  
+    }})  
+    );  
     }
