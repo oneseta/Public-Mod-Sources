@@ -1,0 +1,1 @@
+//ProgressDialogを表示するテンプレ
